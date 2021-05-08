@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load blog_tags static %}
+{% block title %}
+    <title>Sueed‘s Site &mdash; 郎艳独绝，世无其二</title>
+{% endblock %}
+{% block header %}
+  <div class="Header-nav-inner">
+    <a href="/home/{{ home.slug }}" class="Header-nav-item" data-test="template-nav">Home 主页</a>
+      <a href="/album/{{ album.slug }}" class="Header-nav-item Header-nav-item--active" data-test="template-nav">Album 图册</a>
+      <a href="/article/{{ article.slug }}" class="Header-nav-item" data-test="template-nav">Article 文章</a>
+      <a href="/about/{{ about.slug }}" class="Header-nav-item" data-test="template-nav">About Me 关于我</a>
+      <a href="/connect/{{ contact.slug }}" class="Header-nav-item" data-test="template-nav">Contact 联络</a>
+  </div>
+{% endblock %}
+{% block content %}
+        <div class="Content-outer">
+          
+
+          <main class="Index" data-collection-id="5be1bede8a922d4ef1b4cd39" data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation">
+            
+              <section id="all-galleries" class="Index-gallery" style="padding-top: 1%" data-controller="IndexGallery" data-collection-id="5be1c096032be48f93238b0f">
+        <div class="Index-gallery-wrapper">
+          <button class="Index-gallery-control Index-gallery-control--left">
+            <svg class="Icon Icon--caretLarge--left" viewBox="0 0 23 48">
+{#              <use xlink:href="/assets/ui-icons.svg#caret-left-icon--large"></use>#}
+            </svg>
+            <svg class="Icon Icon--caretSmall--left" viewBox="0 0 9 16">
+{#              <use xlink:href="/assets/ui-icons.svg#caret-left-icon--small"></use>#}
+            </svg>
+          </button>
+          <button class="Index-gallery-control Index-gallery-control--right">
+            <svg class="Icon Icon--caretLarge--right" viewBox="0 0 23 48">
+{#              <use xlink:href="/assets/ui-icons.svg#caret-right-icon--large"></use>#}
+            </svg>
+            <svg class="Icon Icon--caretSmall--left" viewBox="0 0 9 16">
+{#              <use xlink:href="/assets/ui-icons.svg#caret-right-icon--small"></use>#}
+            </svg>
+          </button>
+          
+            <div class="Index-gallery-indicators">
+              <button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button><button class="Index-gallery-indicators-item"><span class="Index-gallery-indicators-item-inner"></span></button>
+            </div>
+          
+          {% get_album_tags as tags %}
+            {% for item in tags %}
+
+                <article class="Index-gallery-item">
+
+              <div class="Index-gallery-item-inner">
+
+
+                  <div class="Index-gallery-item-content">
+                    <h2 class="Index-gallery-item-content-heading">{{ item.name }}</h2>
+
+                    <a href="/album/{{ item.slug }}" class="Index-gallery-item-content-link"></a>
+
+                  </div>
+
+
+                  <a href="/album/{{ item.slug }}" class="Index-gallery-item-image">
+
+                      {% get_picture_size item.surface 'media/' as size%}
+                  <img data-src="../media/{{ item.surface }}" data-image-dimensions="{{ size }}" data-image-focal-point="0.16129032258064516,0.49114583333333334" alt="{{ item.slug }}"  data-load="false" />
+
+                  </a>
+
+              </div>
+
+            </article>
+            {% endfor %}
+
+        </div>
+      </section>
+
+    
+
+  
+
+  
+    <nav class="Index-nav">
+      <div class="Index-nav-inner">
+        
+          <a href="#all-galleries" class="Index-nav-item active">
+            <div class="Index-nav-indicator"></div>
+            <div class="Index-nav-text"><span>Choose a Gallery</span></div>
+          </a>
+        
+      </div>
+    </nav>
+            
+          </main>
+        </div>
+{% endblock %}
