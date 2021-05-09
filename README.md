@@ -21,7 +21,7 @@
 ![sample/home_pc.jpg](sample/home_pc.jpg)
 
 ### 📱 移动端显示效果
-<img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/home_mobile.png' width='300px' /><img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/menu_mobile.jpg' width='300px' />
+<img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/home_mobile.jpg' width='300px' /><img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/menu_mobile.jpg' width='300px' />
 
 ### 😗 网站地址
 * 域名备案管局审核中【2021.5.9】
