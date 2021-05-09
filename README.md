@@ -22,7 +22,6 @@
 
 ### 📱 移动端显示效果
 ![sample/home_mobile.jpg](sample/home_mobile.jpg)![sample/menu_mobile.jpg](sample/menu_mobile.jpg)
-<img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/home_mobile.jpg' width='300px' /><img src='https://github.com/Sueed/Sueed_Love_Site/tree/master/sample/menu_mobile.jpg' width='300px' />
 
 ### 😗 网站地址
 * 域名备案管局审核中【2021.5.9】
