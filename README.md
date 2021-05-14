@@ -24,7 +24,7 @@
 ![sample/home_mobile.jpg](sample/home_mobile.jpg)![sample/menu_mobile.jpg](sample/menu_mobile.jpg)
 
 ### 😗 网站地址
-* 域名备案管局审核中【2021.5.9】
+* www.sueed.love
 
 ### 👩‍🏫 建站教程
 * 【考研期间停更，之后维护更新时进行再编辑，敬请期待啦】
