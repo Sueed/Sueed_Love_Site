@@ -24,7 +24,7 @@
 ![sample/home_mobile.jpg](sample/home_mobile.jpg)![sample/menu_mobile.jpg](sample/menu_mobile.jpg)
 
 ### 😗 网站地址
-* www.sueed.love
+* <a href="https://www.sueed.love/">The Site of Sueed</a>
 
 ### 👩‍🏫 建站教程
 * 【考研期间停更，之后维护更新时进行再编辑，敬请期待啦】
