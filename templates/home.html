@@ -22,6 +22,7 @@
                   <div class="col sqs-col-12 span-12">
                       <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1542125569783_24950">
                           <div class="sqs-block-content">
+                              {% if is_mobile %}
                               <figure
           class="
             sqs-block-image-figure
@@ -33,6 +34,7 @@
             individual-text-animation-none
             image-position-right
             image-linked
+            sqs-narrow-width
           "
           data-scrolled
           data-test="image-block-v2-outer-wrapper"
@@ -66,7 +68,6 @@
 
 
         </div>
-
 
 
 
@@ -114,6 +115,177 @@
                       </div>
                       <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1542127559969_4620">
                           <div class="sqs-block-content">
+
+                              <figure
+          class="
+            sqs-block-image-figure
+            image-block-outer-wrapper
+            image-block-v2
+            design-layout-card
+            combination-animation-slide-up
+            individual-animation-none
+            individual-text-animation-none
+            image-position-left
+            image-linked
+            sqs-narrow-width
+          "
+          data-scrolled
+          data-test="image-block-v2-outer-wrapper"
+      >
+
+        <div class="intrinsic">
+
+            <div
+
+
+              class="
+
+                image-inset
+
+                  content-fit
+
+              "
+              data-animation-role="image"
+              data-description=""
+
+  data-animation-override
+
+          >
+            <noscript>
+                <img src="../media/home/home_work.jpg" alt="About The Work - “As classical as Kauppila’s work may seem at first glance, it can be said to have particular relevance given today’s urbanized lifestyles and habits of self-absorption. It is a reminder of creatures and life forces beyond ourselves, perhaps offering an alternative way of being, one that is attuned to nature and its immeasurable transformations in every moment…”" /></noscript>
+                {% get_picture_size 'home/home_me.jpg' 'media/' as size%}
+                <img data-src="../media/home/home_work.jpg" data-image-dimensions="{{ size }}" data-image-focal-point="0.5,0.5" alt="home-flora-tile.jpg"  />
+            <div class="image-overlay"></div>
+
+            </div>
+
+
+        </div>
+
+
+<figcaption class="image-card-wrapper" data-width-ratio>
+            <div class="image-card sqs-dynamic-text-container">
+
+
+                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
+
+  data-animation-override
+><p>About Copyright</p></div></div>
+
+
+
+                <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
+
+  data-animation-override
+>
+                    <p>本网所有文字、图片和音视频资料，版权均属作品原作者所有,本站内容仅供同好分享、学习交流所用,不得商用盗印哦！</p>
+                    <p>All the text, pictures and audio and video materials of this network, the copyright belongs to the original author of the work all, the content of this site is only for sharing and learning among people of the same taste, commercial pirated printing shall not be allowed!</p>
+                    <p>本サイトのすべての文字、写真と音声とビデオ資料、著作権はすべて作品の原作者の所有で, 本サイトのコンテンツは同じ趣味を持っている人と共有するために存在する,商業印刷は禁止されている.</p>
+                </div></div>
+
+
+            </div>
+          </figcaption>
+
+
+      </figure>
+                          </div>
+                      </div>
+
+                                  {% endif %}
+                                  {% if is_mobile == False %}
+                              <figure
+          class="
+            sqs-block-image-figure
+            image-block-outer-wrapper
+            image-block-v2
+            design-layout-card
+            combination-animation-slide-up
+            individual-animation-none
+            individual-text-animation-none
+            image-position-right
+            image-linked
+          "
+          data-scrolled
+          data-test="image-block-v2-outer-wrapper"
+      >
+
+        <div class="intrinsic">
+
+            <div
+
+
+              class="
+
+                image-inset
+
+                  content-fit
+
+              "
+              data-animation-role="image"
+              data-description=""
+
+  data-animation-override
+
+          >
+            <noscript>
+                <img src="../media/home/home_me.jpg" alt="…" /></noscript>
+                {% get_picture_size 'home/home_me.jpg' 'media/' as size%}
+                <img data-src="../media/home/home_me.jpg" data-image-dimensions="{{ size }}" data-image-focal-point="0.5,0.5" alt="home-me.jpg"  />
+            <div class="image-overlay"></div>
+
+            </div>
+
+
+        </div>
+
+
+
+          <figcaption class="image-card-wrapper" data-width-ratio>
+            <div class="image-card sqs-dynamic-text-container">
+
+
+                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
+
+  data-animation-override
+><p>About The Site</p></div></div>
+
+
+
+                <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
+
+  data-animation-override
+><p>“本人制作本站的初心：<p style="text-decoration:line-through; padding-left: 10px">记录思考随笔、收藏生活的美</p>
+                <p>Collect my treasure pictures and articles</p>
+                <p>
+                    显然本站<a style="text-line-through: single;">【非技术型】</a><a style="text-line-through: single;">【非营利性】</a>且包含<a style="text-line-through: double;">【海量个人私心内容】</a>——简而言之就是我个人的自嗨空间,因此为防被奇奇怪怪的键盘侠和复读机冲烂取消了评论互动功能</p>
+                    <p style="text-decoration:line-through;">在浏览过程中出现BUG请解决掉发现BUG的人</p>
+                    <p>在浏览过程中出现BUG请激情敲打F5</p>
+                    <p>实在不行就 alt + F4吧_(:з」∠)_</p>
+                </div></div>
+
+
+
+                <div class="image-button-wrapper">
+                    <div class="image-button sqs-dynamic-text">
+                        <div class="image-button-inner">
+                            <a href="/about/">What About Sueed?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </figcaption>
+
+
+      </figure>
+                          </div>
+                      </div>
+                      <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1542343919292_7164">
+                          <div class="sqs-block-content">&nbsp;</div>
+                      </div>
+                      <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1542127559969_4620">
+                          <div class="sqs-block-content">
+
                               <figure
           class="
             sqs-block-image-figure
@@ -188,6 +360,8 @@
       </figure>
                           </div>
                       </div>
+
+                                  {% endif %}
                   </div>
               </div>
           </div>
@@ -203,6 +377,7 @@
   <img data-src="../static/picture/background-2.jpg" data-image-dimensions="2500x3008" data-image-focal-point="0.18,0.49" alt="background-2.jpg"  data-load="false" />
 
             </figure>
+
 
 
       </section>

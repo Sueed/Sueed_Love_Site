@@ -39,7 +39,7 @@
         
         <div class="Index-page-content  sqs-alternate-block-style-container">
           <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1580453321434" id="page-5beee9e94ae237319111a845"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-875e0cd2a5ffe8ab3f24"><div class="sqs-block-content">
-
+{% if is_mobile %}
       <figure
           class="
             sqs-block-image-figure
@@ -50,72 +50,149 @@
             individual-animation-none
             individual-text-animation-none
             image-position-right
-            
+            sqs-narrow-width
           "
           data-scrolled
           data-test="image-block-v2-outer-wrapper"
       >
 
         <div class="intrinsic">
-          
+
             <div
-          
-              
+
+
               class="
-                
+
                 image-inset
-                
+
                   content-fit
-                
+
               "
               data-animation-role="image"
               data-description=""
-              
-  
+
+
 
           >
             <noscript>
                 <img src="../media/album/20210425_092838.jpg" alt="" /></noscript>
                 <img data-src="../media/album/20210425_092838.jpg" data-image-dimensions="1913x2147" data-image-focal-point="0.5,0.5" alt="IMG_6947.JPG"  />
             <div class="image-overlay"></div>
-          
+
             </div>
-          
+
 
         </div>
 
-        
-          
+
+
           <figcaption class="image-card-wrapper" data-width-ratio>
             <div class="image-card sqs-dynamic-text-container">
 
-              
-                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
-                
-  
-><p class="">Sueed = 'Sue' + 'ed'</p></div></div>
-              
 
-              
+                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
+
+
+><p class="">Sueed = 'Sue' + 'ed'</p></div></div>
+
+
+
                 <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
-                
-  
+
+
 >
                     <p>Sue是我的英文名, ed代表过去式. 取名Sueed寓意在于警示自己现在都会成为过去, 凡是过往 皆为序章</p>
                     <p class="">我爱生活、爱书画、爱音乐、爱游戏、爱编程</p>
                 <p>作为二次元腐宅, 博览群书, 阅片无数. 小说漫画广播剧动画游戏不限体裁, 中英日不限语种来者不拒.</p>
                     <p>可惜鄙人不才, 写不出跌宕起伏的情节、画不出清丽俊秀的靓仔, 不能自割腿肉自给自足_(:з」∠)_</p>
                 </div></div>
-              
 
-              
+
+
 
             </div>
           </figcaption>
-        
+
 
       </figure>
+{% endif %}
 
+{% if is_mobile == False %}
+      <figure
+          class="
+            sqs-block-image-figure
+            image-block-outer-wrapper
+            image-block-v2
+            design-layout-card
+            combination-animation-none
+            individual-animation-none
+            individual-text-animation-none
+            image-position-right
+          "
+          data-scrolled
+          data-test="image-block-v2-outer-wrapper"
+      >
+
+        <div class="intrinsic">
+
+            <div
+
+
+              class="
+
+                image-inset
+
+                  content-fit
+
+              "
+              data-animation-role="image"
+              data-description=""
+
+
+
+          >
+            <noscript>
+                <img src="../media/album/20210425_092838.jpg" alt="" /></noscript>
+                <img data-src="../media/album/20210425_092838.jpg" data-image-dimensions="1913x2147" data-image-focal-point="0.5,0.5" alt="IMG_6947.JPG"  />
+            <div class="image-overlay"></div>
+
+            </div>
+
+
+        </div>
+
+
+
+          <figcaption class="image-card-wrapper" data-width-ratio>
+            <div class="image-card sqs-dynamic-text-container">
+
+
+                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
+
+
+><p class="">Sueed = 'Sue' + 'ed'</p></div></div>
+
+
+
+                <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
+
+
+>
+                    <p>Sue是我的英文名, ed代表过去式. 取名Sueed寓意在于警示自己现在都会成为过去, 凡是过往 皆为序章</p>
+                    <p class="">我爱生活、爱书画、爱音乐、爱游戏、爱编程</p>
+                <p>作为二次元腐宅, 博览群书, 阅片无数. 小说漫画广播剧动画游戏不限体裁, 中英日不限语种来者不拒.</p>
+                    <p>可惜鄙人不才, 写不出跌宕起伏的情节、画不出清丽俊秀的靓仔, 不能自割腿肉自给自足_(:з」∠)_</p>
+                </div></div>
+
+
+
+
+            </div>
+          </figcaption>
+
+
+      </figure>
+{% endif %}
     
 
   

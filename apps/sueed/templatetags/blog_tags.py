@@ -8,11 +8,9 @@ from ..models import Article, Category, Tag, Carousel, FriendLink, BigCategory, 
 from django.db.models.aggregates import Count
 from django.utils.html import mark_safe
 from PIL import Image
-import re
 
 # 注册自定义标签函数
 register = template.Library()
-
 
 # 获取文章信息
 @register.simple_tag
