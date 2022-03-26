@@ -27,4 +27,4 @@
 * <a href="https://www.sueed.love/">The Site of Sueed</a>
 
 ### 👩‍🏫 建站教程
-* 【考研期间停更，之后维护更新时进行再编辑，敬请期待啦】
+* 【年中重新建站，敬请期待啦】
