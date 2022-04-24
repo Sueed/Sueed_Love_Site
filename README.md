@@ -24,7 +24,7 @@
 ![sample/home_mobile.jpg](sample/home_mobile.jpg)![sample/menu_mobile.jpg](sample/menu_mobile.jpg)
 
 ### 😗 网站地址
-* ~~https://www.sueed.love/">The Site of Sueed~~
+* ~~The Site of Sueed~~
 
 ### 👩‍🏫 建站教程
 * 【年中重新建站，敬请期待啦】
